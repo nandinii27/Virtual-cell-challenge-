@@ -1,0 +1,25 @@
+# Challenge data - large, and redistributing it may breach the challenge terms
+*.h5ad
+*.vcc
+*.zip
+submission/
+submission_*/
+smoke_test/
+vcc_data/
+
+# Controls bundle files (from Arc's controls-final download, not mine to republish)
+gene_names.csv
+pert_counts.csv
+manifest.json
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
